@@ -11,10 +11,10 @@ blob = TextBlob(text)
 
 # print(blob.noun_phrases)
 
-# print(blob.sentiment)
+print(blob.sentiment)
 
-# print(round(blob.sentiment.polarity), 3)
-# print(round(blob.sentiment.subjectivity, 3))
+print(round(blob.sentiment.polarity), 3)
+print(round(blob.sentiment.subjectivity, 3))
 
 # sentences = blob.sentences
 
